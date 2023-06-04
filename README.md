@@ -1,2 +1,2 @@
 # Website-Indonesia
-Website I made using HTML, CSS, and JavaScript
+Example website using HTML, CSS, and JavaScript
