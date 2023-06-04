@@ -1,0 +1,637 @@
+@charset "utf-8";
+
+/*
+   Author: Dayna Sommer
+   MSU Denver login name: dsommer5
+
+   Final Project Style Sheet
+   Filename: styles.css
+
+*/
+
+/* ===============================
+   General Styles 
+   ===============================
+*/
+
+html {
+   margin: 0 auto;
+   background-color: rgb(216, 188, 159);
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 11px;
+}
+
+body {   
+   padding-top: 10px;
+   width: 1200px;
+   height: 100%;
+   min-height: 100%;
+   background-color: white;
+   margin: 0 auto;
+   line-height: 180%;
+
+}
+ 
+h1 {
+   color: #353535;
+   font-size: 45px;
+   padding-left: 30px;
+   padding-bottom: 10px;
+}
+
+li {
+   list-style-type: none;
+   display: inline-block;
+   padding-left: 6px;
+   justify-content: space-between;
+}
+
+/* ===============================
+   Image Styles 
+   ===============================
+*/
+
+.horizontal {
+   max-width: 500px;
+}
+
+.vertical {
+   max-width: 500px;
+}
+   
+/* ===============================
+   Homepage
+   ===============================
+*/
+
+.allaboutbali {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+
+.welcome {
+   flex: 1;
+   margin-left: 2em;
+   margin-right: 10px;
+   font-size: 14px;
+}
+
+.mainphoto {
+   flex: 1;
+   max-width: 500px;
+   margin-left: 2em;
+   border: 1px solid #353535;
+   margin-bottom: 14.3px;
+   margin-right: 70px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.21);
+}
+
+.profilephoto {
+   border-radius: 50%;
+   width: 42%;
+   float: left;
+   margin-left: 42px;
+}
+
+.hello {
+   padding-left: 30.5px;
+   display: inline-block;
+   font-size: 25px;
+   padding-top: 20px;
+}
+
+.name {
+   text-align: center;
+   padding-right: 69px;
+   font-size: 16px;
+   padding-top: 6px;
+   line-height: 16px;
+}
+
+.website {
+   text-align: center;
+   font-size: 16px;
+   padding-right: 24.5px;
+   padding-bottom: 40px;
+}
+
+.containerhomepage {
+   display: flex;
+   flex-direction: row;
+   padding-bottom: 20px;
+}
+
+.paragraph {
+   flex: 1;
+   padding-left: 48px;
+   text-align: center;
+   font-size: 14.8px;
+}
+
+.visit {
+   flex: 1;
+   text-align: right;
+   padding-right: 53px;
+   font-size: 14px;
+   padding-top: 10.5px;
+   line-height: 80%;
+}
+
+.top4 {
+   padding-left: 15px;
+   text-align: center;
+   font-size: 12px;
+}
+
+/* ===============================
+   Monkeys
+   ===============================
+*/
+
+.monkeycontainer {
+   display: flex;
+   justify-items: center;
+   align-items: left;
+}
+
+.verticalphotos {
+   flex: 1;
+   justify-content: right;
+   padding-left: 1em;
+   text-align: right;
+   font-size: 10px;
+   padding-right: 30px;
+   width: 48%;
+}
+
+.allaboutmonkeys {
+   flex: 1;
+   justify-content: left;
+   height:fit-content;
+   padding-right: 4em;
+}
+
+.allaboutmonkeys {
+   font-size: 130%;
+   width: 48%;
+}
+
+.junglebook {
+   padding-bottom: 1.6em;
+}
+
+.monkeyinfo {
+   padding-bottom: 1em;
+}
+
+.remember {
+   padding-top: .8sem;
+}
+
+.ruleslist ul li {
+   display:list-item;
+   list-style-type: disc;
+   padding-bottom: 1em;
+}
+
+/* ===============================
+   Coffee
+   ===============================
+*/
+
+.coffeecontainer {
+   display: flex;
+   justify-items: center;
+   justify-content: center;
+}
+
+.allaboutluwak {
+   flex: 1;
+   justify-content: left;
+   height:fit-content;
+   text-align: center;
+   float: left;
+   max-width: 44%;
+   font-size: 130%;
+   padding-top: .3em;
+   padding-right: 10px;
+   
+}
+
+.polaroid {
+   flex: 1;
+   justify-content: center;
+   height:fit-content;
+   max-width: 500px;
+   border: 1px solid #353535;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.21);
+   text-align: center;
+   margin-left: 22px;
+   margin-bottom: 14.3px;
+   font-size: 15px;
+}
+
+.coffeeintro {
+   padding-top: 5px;
+   padding-bottom: 3px;
+   font-size: 13px;
+}
+
+.meaning {
+   font-size: 15px;
+   padding-left: 30px;
+   padding-top: 10px;
+}
+
+.unique {
+   padding-top: 40px;
+   font-size: 13px;
+}
+
+.clickbelow {
+   padding-top: 20px;
+}
+
+.poopcoffee {
+   padding-top: 33px;
+}
+
+/* ===============================
+   Uluwatu
+   ===============================
+*/
+
+.uluwatucontainer {
+   display: flex;
+   justify-items: center;
+   align-items: center;
+   margin-bottom: 9px;
+
+}
+
+.allaboutuluwatu {
+   flex: 1;
+   height:fit-content;
+
+   font-size: 130%;
+   display: inline-block;
+   width: 48%;
+}
+
+.seatemple {
+   padding-top:2em;
+}
+
+.templeinfo {
+   padding-top: .9em;
+}
+
+.uluwatuinfo {
+   padding-bottom: 1em;
+}
+
+#momphoto {
+   display: flex;
+   padding-left: 55px;
+   padding-top: 21px;
+   cursor: pointer;
+   transition: cubic-bezier(0.075, 0.82, 0.165, 1) 3s;
+}
+
+#editphoto {
+   width: 360px;
+   height: 360px;
+   border-radius: 180px;
+   box-shadow: 10px 10px 10px rgba(0,0,0,0.18);
+}
+
+figcaption {
+   padding-top:48px;
+   text-align: center;
+   padding-right: 7.3em;
+   font-size: small;
+}
+
+/* ===============================
+   Goa Gajah
+   ===============================
+*/
+
+.goacontainer {
+   display: flex;
+   flex-direction: row;
+   justify-items: center;
+   justify-content: center;
+   align-content: center;
+   max-width: 1000px;
+   margin: 0 auto;
+}
+
+.allaboutgoa {
+   flex: 1;
+   float: left;
+   border: 1px solid #353535;
+   margin-bottom: 14.3px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.21);
+   margin-right: 28px;
+
+}
+
+.goacontainer2 {
+   flex: 1;
+   float: right;
+   border: 1px solid #353535;
+   margin-bottom: 14.3px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.21);
+   margin-left: 28px;
+}
+
+.img {
+   width: 500px;
+}
+
+.container {
+   width: 100%;
+   text-align: center;
+   font-size: 14px;
+}
+
+/* ===============================
+   Header Styles 
+   ===============================
+*/
+
+.headercontainer {
+   display: flex;
+   flex-direction: row;
+   border-bottom: 4px dotted rgb(160, 109, 58);
+   margin-bottom: 30px;
+}
+
+.header {
+   display:flex;
+   width: 600px;
+   color:black;
+   align-content: center;
+   width: 30%;
+}
+
+.header1 {
+   margin-left: 17.3px;
+}
+
+.headerlinks {
+   display: flex;
+   flex: 3;
+   align-items: center;
+   padding-left: 10px;
+}
+
+/* ===============================
+   Link Styles 
+   ===============================
+*/
+
+.headerlinks a:link {
+   background-color: white;
+   cursor: pointer;
+   color: #0e0e0e;
+   box-shadow: 10px 10px 10px rgba(0,0,0,0.18);
+   font-size: 26px;
+   border-style: solid;
+   border-width: 1px;
+   list-style-type: none;
+   padding: 10px 10px;
+}
+
+.headerlinks a:hover {
+   background-color: rgb(122, 118, 118);
+   border-color: rgb(27, 26, 26);
+   color: white;
+}
+
+.home, .one, .two, .three, .four {
+   color: #0e0e0e;
+}
+
+/* ===============================
+   Remove Underline from Links
+   ===============================
+*/
+
+/* unvisited link */
+.home:link, .one:link, .two:link, .three:link, .four:link {
+   text-decoration: none;
+   color: #0e0e0e;
+}
+/* visited link */
+.home:visited, .one:visited, .two:visited, .three:visited, .four:visited {
+   text-decoration: none;
+   color: #0e0e0e;
+}
+/* mouse over link */
+.home:hover, .one:hover, .two:hover, .three:hover, .four:hover {
+   text-decoration: none;
+   color: white;
+}
+/* selected link */
+.home:active, .one:active, .two:active, .three:active, .four:active {
+   text-decoration: none;
+   color: #0e0e0e;
+ }
+
+/* ===============================
+        Tab Styles
+   ===============================
+*/
+
+/* hide content */
+.content {
+   display: none;
+}
+
+.content.active {
+   display: flex;
+   text-align: center;
+   justify-content: center;
+}
+
+.tabbutton {
+   font-style: Verdana;
+   border: 1px solid rgb(28, 27, 59);
+   font-size: 20px;
+   width: 220px;
+   height: 40px;
+   cursor: pointer;
+   color:#080808;
+   text-align: center;
+   justify-content: center;
+   box-shadow: 10px 10px 10px rgba(0,0,0,0.16);
+   letter-spacing: 1.2px;
+   line-height: 25px;
+   vertical-align: middle;
+}
+
+.tabbutton.active {
+   background-color: rgb(167, 166, 166);
+}
+
+.about-tabs{
+   margin: 0 auto;
+   display: block;
+   text-align: center;
+   padding-top: 2em;
+   width: 900px;
+   font-size: 14px;
+   line-height: 25px;
+}
+
+.tabbutton:hover {
+   background-color:rgb(122, 118, 118);
+   color: white;
+}
+
+.createtabs {
+   padding-top: 1em;
+   width: 900px;
+   margin: 0 auto;
+}
+
+section.about-tabs {
+   margin: 0 auto;
+}
+
+.button-container {
+   text-align: center;
+   margin: 0 auto;
+}
+
+#luwakimg {
+   padding-top: 20px;
+   width: 300px;
+}
+
+.aboutuluwatu p {
+   margin: 0 auto;
+   display: block;
+   width: fit-content;
+   padding-top: 2em;
+   width: 900px;
+}
+
+.hover {
+   transform: scale(1.18);
+}
+
+.mainphoto a {
+   text-decoration: none;
+   color: black;
+}
+
+.mainphoto a:hover {
+   cursor:pointer;
+   font-size: 16px;
+}
+
+.content a {
+   text-decoration: none;
+   color:black;
+}
+
+.content a:hover {
+   cursor:pointer;
+   font-size: 16px;
+}
+
+.text {
+   text-align: left;
+   padding-left: 20px;
+   padding-top: 38px;
+}
+
+/* ===============================
+        Table Styles
+   ===============================
+*/
+
+table {
+   width: 600px;
+   margin-top: 20px;
+}
+
+th {
+   font-size: 16px;
+   text-align: center;
+   background-color: rgb(210, 210, 210);
+}
+
+.day td {
+   text-align: left;
+   border: 1px solid #353535;
+   padding-left: 5px;
+   background-color: rgb (210,210,210);
+}
+
+#blank {
+   background-color: white;
+}
+
+/* ===============================
+   Contact Icon Styles 
+   ===============================
+*/
+
+.phone {
+   display: inline-block;
+}
+
+.contact {
+   vertical-align: middle;
+}
+
+#telephone {
+   height: 25px;
+   rotate: 18deg;
+   padding-right:14px;
+   padding-bottom: 16px;
+   padding-left: 37.96px;
+}
+
+#envelope {
+   width: 39px;
+   display: inline-block;
+   padding-bottom: 10.3px;
+}
+
+#envelope:hover {
+   cursor: pointer;
+}
+
+/* ===============================
+   Footer Styles 
+   ===============================
+*/
+
+.cis {
+   flex: 1;
+   margin-top: 20px;
+   text-align: center;
+   margin-bottom: 20px;
+   padding-right: 41px;
+}
+
+footer {
+   display: flex;
+}
+
+.copyright {
+   flex: 1;
+   text-align: center;
+   vertical-align: middle;
+   font-size: 12px;
+   padding-top: 8px;
+   padding-bottom: 10px;
+   padding-left: 36px;
+   
+}
